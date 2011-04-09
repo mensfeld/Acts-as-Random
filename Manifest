@@ -3,7 +3,6 @@ Gemfile
 MIT-LICENSE
 README.md
 Rakefile
-acts_as_random.gemspec
 init.rb
 lib/acts_as_random.rb
 spec/acts_as_random_spec.rb
