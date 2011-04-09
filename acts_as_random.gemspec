@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{acts_as_random}
   s.rubygems_version = %q{1.5.2}
-  s.signing_key = %q{/home/mencio/.cert_keys/gem-private_key.pem}
   s.summary = %q{Gem allowing ActiveRecord models to have randomly generated primary keys - not autoincremented}
 
   if s.respond_to? :specification_version then
