@@ -1,5 +1,13 @@
 # ActsAsRandom
 
+## Install
+
+    gem install acts_as_random
+
+and in your Gemfile:
+    
+    gem 'acts_as_random'
+
 ## About
 
 Gem allowing ActiveRecord models to have randomly generated
