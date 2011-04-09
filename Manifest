@@ -1,0 +1,10 @@
+CHANGELOG.rdoc
+Gemfile
+MIT-LICENSE
+README.md
+Rakefile
+init.rb
+lib/acts_as_random.rb
+rspec/acts_as_random_spec.rb
+rspec/spec_helper.rb
+Manifest
