@@ -49,3 +49,6 @@ module Acts
     end
   end
 end
+
+ActiveRecord::Base.send(:include, Acts::AsRandom)
+
