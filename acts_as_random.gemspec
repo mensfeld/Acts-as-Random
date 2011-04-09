@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Maciej Mensfeld"]
-  s.cert_chain = ["/home/mencio/.cert_keys/gem-public_cert.pem"]
   s.date = %q{2011-04-09}
   s.description = %q{Gem allowing ActiveRecord models to have randomly generated primary keys - not autoincremented}
   s.email = %q{maciej@mensfeld.pl}
