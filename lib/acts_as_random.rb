@@ -28,7 +28,9 @@ module Acts
           unless skip_cache
             order("RAND()").first
           else
-            where("created_at < '#{Time.now.to_s(:db)}'").order("RAND()").first
+            uncached do
+              order("RAND()").first
+            end
           end
         end
       end
