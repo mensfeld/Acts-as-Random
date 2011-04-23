@@ -25,11 +25,17 @@ module Acts
       
       module ClassMethods
         def random(skip_cache = false)
+          if ActiveRecord::Base.connection.adapter_name == 'SQLite'
+            rand = "Random()"
+          else
+            rand = "Rand()"
+          end
+
           unless skip_cache
-            order("RAND()").first
+            order(rand).first
           else
             uncached do
-              order("RAND()").first
+              order(rand).first
             end
           end
         end
