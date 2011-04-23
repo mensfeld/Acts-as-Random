@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{acts_as_random}
-  s.version = "0.1.3"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Maciej Mensfeld"]
   s.cert_chain = ["/home/mencio/.cert_keys/gem-public_cert.pem"]
-  s.date = %q{2011-04-17}
+  s.date = %q{2011-04-23}
   s.description = %q{Gem allowing ActiveRecord models to have randomly generated primary keys - not autoincremented}
   s.email = %q{maciej@mensfeld.pl}
   s.extra_rdoc_files = ["CHANGELOG.rdoc", "README.md", "lib/acts_as_random.rb"]
