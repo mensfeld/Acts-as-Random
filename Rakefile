@@ -8,6 +8,7 @@ Echoe.new('acts_as_random', '0.1.4') do |p|
   p.author         = "Maciej Mensfeld"
   p.email          = "maciej@mensfeld.pl"
   p.ignore_pattern = ["tmp/*", "script/*"]
+  p.license        = 'MIT'
   p.development_dependencies = ["rspec >=2.0.0", "active_record"]
 end
 
